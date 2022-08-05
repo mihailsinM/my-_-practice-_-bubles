@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{C8E67540-2FF4-43EE-987F-186FDE921AB2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>bubble</RootNamespace>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HTMLPage1.html" />
+    <Content Include="site.css" />
+    <Content Include="WebApplicationBUBBLES\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Content Include="WebApplicationBUBBLES\obj\Debug\net6.0\WebApplicationBUBBLES.AssemblyInfo.cs" />
+    <Content Include="WebApplicationBUBBLES\obj\Debug\net6.0\WebApplicationBUBBLES.GlobalUsings.g.cs" />
+    <Content Include="WebApplicationBUBBLES\obj\Debug\net6.0\WebApplicationBUBBLES.RazorAssemblyInfo.cs" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\css\site.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\favicon.ico" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\js\site.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\jquery\dist\jquery.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <Content Include="WebApplicationBUBBLES\obj\wwwroot\lib\jquery\LICENSE.txt" />
+    <Content Include="WebApplicationBUBBLES\Pages\Error.cshtml.cs" />
+    <Content Include="WebApplicationBUBBLES\Pages\Index.cshtml.cs" />
+    <Content Include="WebApplicationBUBBLES\Pages\Privacy.cshtml.cs" />
+    <Content Include="WebApplicationBUBBLES\Pages\Shared\_Layout.cshtml.css" />
+    <Content Include="WebApplicationBUBBLES\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\WebApplicationBUBBLES\config\applicationhost.config" />
+    <None Include=".vs\WebApplicationBUBBLES\FileContentIndex\ee7a2e6f-e602-4682-8324-61e6515140e3.vsidx" />
+    <None Include=".vs\WebApplicationBUBBLES\FileContentIndex\read.lock" />
+    <None Include=".vs\WebApplicationBUBBLES\v17\.futdcache.v1" />
+    <None Include=".vs\WebApplicationBUBBLES\v17\.suo" />
+    <None Include="app.config" />
+    <None Include="WebApplicationBUBBLES\appsettings.Development.json" />
+    <None Include="WebApplicationBUBBLES\appsettings.json" />
+    <None Include="WebApplicationBUBBLES\obj\Debug\net6.0\WebApplicationBUBBLES.AssemblyInfoInputs.cache" />
+    <None Include="WebApplicationBUBBLES\obj\Debug\net6.0\WebApplicationBUBBLES.assets.cache" />
+    <None Include="WebApplicationBUBBLES\obj\Debug\net6.0\WebApplicationBUBBLES.csproj.AssemblyReference.cache" />
+    <None Include="WebApplicationBUBBLES\obj\Debug\net6.0\WebApplicationBUBBLES.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="WebApplicationBUBBLES\obj\Debug\net6.0\WebApplicationBUBBLES.RazorAssemblyInfo.cache" />
+    <None Include="WebApplicationBUBBLES\obj\project.assets.json" />
+    <None Include="WebApplicationBUBBLES\obj\project.nuget.cache" />
+    <None Include="WebApplicationBUBBLES\obj\WebApplicationBUBBLES.csproj.nuget.dgspec.json" />
+    <None Include="WebApplicationBUBBLES\obj\WebApplicationBUBBLES.csproj.nuget.g.props" />
+    <None Include="WebApplicationBUBBLES\obj\WebApplicationBUBBLES.csproj.nuget.g.targets" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="WebApplicationBUBBLES\obj\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="WebApplicationBUBBLES\Pages\Error.cshtml" />
+    <None Include="WebApplicationBUBBLES\Pages\Index.cshtml" />
+    <None Include="WebApplicationBUBBLES\Pages\Privacy.cshtml" />
+    <None Include="WebApplicationBUBBLES\Pages\Shared\_Layout.cshtml" />
+    <None Include="WebApplicationBUBBLES\Pages\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="WebApplicationBUBBLES\Pages\_ViewImports.cshtml" />
+    <None Include="WebApplicationBUBBLES\Pages\_ViewStart.cshtml" />
+    <None Include="WebApplicationBUBBLES\WebApplicationBUBBLES.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\bubble\v17\" />
+    <Folder Include=".vs\WebApplicationBUBBLES\FileContentIndex\merges\" />
+    <Folder Include="My Project\" />
+    <Folder Include="WebApplicationBUBBLES\bin\Debug\net6.0\" />
+    <Folder Include="WebApplicationBUBBLES\obj\Debug\net6.0\refint\" />
+    <Folder Include="WebApplicationBUBBLES\obj\Debug\net6.0\ref\" />
+    <Folder Include="WebApplicationBUBBLES\obj\Debug\net6.0\staticwebassets\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
